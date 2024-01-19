@@ -1,14 +1,21 @@
 ---
 import EjemploCoponente from '@/componentes/EjemploCoponente.astro';
 import Plantilla from '@/plantillas/Plantilla.astro';
+import Lienzo from '@/componentes/Lienzo.astro';
 ---
 
 <Plantilla>
   <main>
-    <h1>..:: Plantilla EnFlujo - Astro ::..</h1>
+    <h1>..:: Decaer ::..</h1>
+    <h2>formas de matar al padre</h2>
 
-    <EjemploCoponente titulo="Una base para empezar a usar Astro" contenido="¬ | ¬" />
+    <Lienzo />
   </main>
 </Plantilla>
 
-<style lang="scss"></style>
+<style lang="scss">
+  h1,
+  h2 {
+    text-align: center;
+  }
+</style>
