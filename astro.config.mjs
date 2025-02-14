@@ -9,4 +9,13 @@ export default defineConfig({
   build: {
     assets: 'estaticos',
   },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler',
+        },
+      },
+    },
+  },
 });

@@ -1,4 +1,4 @@
-@import './normalizar';
+@use './normalizar' as *;
 
 :root {
   --colorFuente: #252424;
